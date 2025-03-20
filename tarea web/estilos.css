@@ -1,0 +1,24 @@
+ .menu{
+    background-color: plum;
+
+ }
+ .banner{
+    height: 750px;
+    width: 100%;
+   background-image: url(imagenes/fondo-principal.avif);
+   background-size: cover;
+   background-position: center;
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+ }
+.banner p{
+   width: 500px;
+   margin-left: 80px;
+}
+.container img{
+   height: 100px;
+   width: 10%;
+   border:black;
+  border-radius: 100%;
+}
