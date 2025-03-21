@@ -1,0 +1,44 @@
+ .menu{
+    background-color: rgb(190, 47, 119);
+
+ }
+ .banner{
+    height: 750px;
+    width: 100%;
+   background-image: url(imagenes/fondo-principal.avif);
+   background-size: cover;
+   background-position: center;
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+ }
+.banner p{
+   width: 500px;
+   margin-left: 80px;
+}
+.titulo{
+   text-align: center;
+   margin: 0 auto;
+}
+.subtitulo{
+   text-align: center;
+   margin: 0 auto;
+}
+.pins{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+.pin{
+   background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  margin: 20px;
+  padding: 20px;
+  width: 200px;
+}
+.pin img {
+   width: 50%;
+   height: 50px;
+   object-fit: cover;
+ }
+ 
